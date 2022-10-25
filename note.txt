@@ -1,0 +1,43 @@
+jwt - token generation user authentication
+
+jsonwebtoken- liberary used to generate token 
+comman used is -- npm i jsonwebtoken
+sign() - method to generate token
+
+token generated and send to client
+
+
+token validation
+
+middlewares- method 3 argument res,req,next
+
+1.application specific middleware
+
+2.router specific middleware
+
+
+
+
+
+
+
+
+
+
+
+CRUD -- create,read,update,delete
+
+register - insert
+login    - findone
+deposit  - update
+withdraw - update 
+
+
+        bank server backend
+            ---------
+            -mongoose 
+                installation code == npm i mongoose
+
+
+different ports communicate (data sharing) --cors (cross origin resourse sharing)
+            npm i cors
